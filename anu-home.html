@@ -6,28 +6,38 @@
     <style>
         .header{
             text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .nav-top, .nav-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 5px 0;
         }
         .nav-top a, .nav-bottom a{
-            color:black;
             text-decoration: none;
         }
         .nav-top a:hover, .nav-bottom a:hover{
-            text-decoration: underline;
             color: rgb(255, 136, 0);
         }
         .imp{
             color:rgb(255, 255, 255);
             background-color: #0f27c4;
+            padding: 5px 10px;
         }
         .imp:hover{
             background-color:rgb(8, 8, 110);
         }
+        
 
     </style>
     <body>
         <div class="header">
             <div class="nav-top">
-                <img src="./images/header-IRways-logo.png">
+                <img id = "rail-logo" src="./images/header-IRways-logo.png">
                 <a href="" class="imp" style="color:rgb(239, 244, 249)">LOGIN</a>
                 <a href="">REGISTER</a>
                 <a href="">AGENT LOGIN</a>
@@ -47,7 +57,7 @@
                 <a href="">MEALS</a>
                 <a href="">PROMOTIONS</a>
                 <a href="">MORE</a>
-                <img src="./images/header-IRCTC-logo.png">
+                <img id="logo" src="./images/header-IRCTC-logo.png">
             </div>
         </div>
     </body>
