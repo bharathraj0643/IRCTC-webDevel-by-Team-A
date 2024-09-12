@@ -77,8 +77,8 @@ h1 {
 }
 #category select,
 #category .date {
-    margin: 0; /* Remove default margin for consistency */
-    padding: 5px; /* Optional: Add some padding */
+    margin: 0; 
+    padding: 5px; 
 }
 #search{
     margin-top: 20px;
