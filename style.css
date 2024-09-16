@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("images/Vande-Bharat-Sleeper-Coach.jpg");
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,6 +38,13 @@ body{
 }
 .nav-items ul li .imp:hover{
     background-color: rgb(6, 6, 103);
+}
+#booking-container{
+    background-image: url("/images/body-book-tk-bgImage.jpg");
+    padding: 50px;
+    background-size: cover;
+    border: 5px solid black;
+    padding: 0 10px;;
 }
 main,.heading{
     text-align:center;
@@ -86,4 +93,106 @@ h1 {
     color: white;
     background-color: rgb(255, 145, 0);
 }
+#second-head{
+    text-align: center;
+    font-size: 40px;
+}
+#service-container{
+    padding: 0px 340px;
+}
+.services li{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px 30px;
+}
+.cust-care{
+    display: inline-block;
+    background-color: rgb(149, 10, 10);
+    color: white;
+}
 
+.footer-icons{
+    background-color: violet;
+    background-image: linear-gradient(270deg, #9b4b90 0, #2c215d);
+    animation-name: fadeIn;
+    line-height: 75px;
+}
+  
+.fb{
+ background-color: #1877F2;
+ color: white;padding: 10px;
+ border-radius: 50%; 
+ text-decoration: none;
+}
+.fb:hover {
+background-color: #145dbf; 
+ }
+.fb i {
+font-size: 18px; 
+}
+
+.insta{
+background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+color: white;padding: 10px;
+border-radius: 50%;
+text-decoration: none;
+}
+.insta:hover{
+    background: linear-gradient(45deg, #e6683c 0%, #dc2743 50%, #bc1888 100%);
+}
+.insta i{
+    font-size: 18px;
+}
+
+.twitter{
+    background-color: #1DA1F2;
+    padding: 10px; 
+    border-radius: 50%;
+}
+.twitter:hover{
+    background-color: #0d95e8;
+}
+.twitter i{
+    width: 18px;
+}
+
+.pinterest{
+    background-color: #E60023;
+    color: white; 
+    padding: 10px; 
+    border-radius: 50%; 
+    text-decoration: none;
+}
+.pinterest:hover{
+    background-color: #bd081c;
+}
+.pinterest i{
+    width:18px;
+}
+
+.tumblr{
+    background-color: #35465C; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 50%; 
+    text-decoration: none;
+}
+.tumblr:hover{
+    background-color: #2c3e50;
+}
+.tumblr i{
+    width:18px;
+}
+.footer-menu{
+    display: flex;
+    background-color: rgb(13, 13, 124);
+    color: white;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-menu ul li{
+    list-style-type: none;
+}
