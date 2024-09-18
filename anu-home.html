@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>IRCTC Team A</title> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="register.css">
     </head>
     <body>
         <nav class="header">
@@ -15,6 +16,7 @@
                     <li><button class="imp">LOGIN</button></li>
                     <li><a href="register.html">REGISTER</a></li>
                     <li><a href="">AGENT LOGIN</a></li>
+                    <li><a href="Bharath-pass-forgot.html">FORGOT PASSWORD</a></li>
                     <li><a href="">CONTACT US</a></li>
                     <li><a href="">DAILY DEALS</a></li>
                     <li><a href="">ALERTS</a></li>          
@@ -45,8 +47,8 @@
                     <h3 class="properties">Punctuality</h3>
                 </section>
                 <div>
-                    <button class="btn">PNR STATUS</button>
-                    <button class="btn">CHARTS / VACANCY</button>
+                    <button class="home-btn">PNR STATUS</button>
+                    <button class="home-btn">CHARTS / VACANCY</button>
                 </div>
                 <form class="booking" action="C:\Users\anuma\Documents\IRCTC-webDevel-by-Team-A">
                     <input type="text" placeholder="From" required>
@@ -90,35 +92,70 @@
         </div>
         <h2 id="second-head">Have you not found the right one?<br>Find a service suitable for you here.</h2>
         <div id="service-container">
-            <ul class="services">
-                <li>FLIGHTS</li>
-                <li>HOTELS</li>
-                <li>RAIL DRISHTI</li>
-                <li>E-CATERING</li>
-                <li>BUS</li>
-                <li>HOLIDAY PACKAGES</li>
-                <li>TOURIST TRAIN</li>
-                <li>HILL RAILWAYS</li>
-                <li>CHARTER TRAIN</li>
-                <li>GALLERY</li>
-            </ul>
+            <div class="services">
+                <a class="button flight-btn" style="background-color: violet">FLIGHTS</a>
+                <a class="button hotel-btn" style="background-color: gray;">HOTELS</a>
+                <a class="button food-btn" style="background-color: blue;">E-CATERING</a>
+                <a class="button bus-btn" style="background-color: green;">BUS</a>
+                <a class="button holiday-btn" style="background-color:rgb(202, 202, 20)">HOLIDAY PACKAGES</a>
+                <a class="button hill-btn" style="background-color: orange;">HILL RAILWAYS</a>
+                <a class="button pic-btn" style="background-color: red">GALLERY</a>
+            </div>
+
+
+        </div>
             <div class="cust-care">
                 <img src="/images/header-IRCTC-logo.png" style="float:left;margin:20px;background-color:white">
                 <p><strong>IRCTC Customer Care No. : <span style="color:yellow">14646</span> </strong></p>
                 <p>IRCTC never asks for your personal banking information such as <span style="color:yellow">Debit/Credit Card number/
                     OTP/PIN/CVV PAN or Date of Birth</span> or Ask to install any app for customer compalint.</p>
             </div>
-        </div>
-        <section>
-            <h2>HOLIDAYS</h2>
-            <ul>
-                <li>Maharaja Express</li>
-                <li>International Packages</li>
-                <li>Domestic Air Packages</li>
-                <li>Bharat Gaurav Tourist Train</li>
-                <li>Rail Tour Packages</li>
-            </ul>
+
+
+        <section class="holidays">
+            <div class="card">
+                <img src="images/maharaja-express.jpg">
+                <div class="card-content">
+                   <h3>Maharajas' Express</h3>
+                   <p>Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.</p>
+                   <a href="" class="read_more">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/international-packages.jpg">
+                <div class="card-content">
+                   <h3>International Packages</h3>
+                   <p>Best deals in International Holiday packages, handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.</p>
+                   <a href="" class="read_more">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/domestic-air-packages.jpg">
+                <div class="card-content">
+                   <h3>Domestic Air Packages</h3>
+                   <p>Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all. Discover India through IRCTC!</p>
+                   <a href="" class="read_more">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/tourist-train.jpg">
+                <div class="card-content">
+                   <h3>Bharat Gaurav Tourist Train</h3>
+                   <p>IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation on train specially designed to promote domestic tourism in India. This train runs on various theme based circuits covering pilgrimage and heritage destinations in its itinerary on a 5 days to 20 days trip and showcase India’s rich cultural heritage.</p>
+                   <a href="" class="read_more">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/rail-tour-package.jpg">
+                <div class="card-content">
+                   <h3>Rail Tour Packages</h3>
+                   <p>IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.</p>
+                   <a href="" class="read_more">Read More</a>
+                </div>
+            </div>
         </section>
+
+
         <div class="footer-icons">
             <span style="color: white; font-size: 16px; margin-left: 100px;">Get connected with us on social networks </span>
         
@@ -141,9 +178,8 @@
             <span style="margin-left: 70px;">
             <a href="https://www.tumblr.com/irctcofficial/" target="_blank" class="tumblr" alt="irctc tumblr" color: #35465C;>
             <i class="fab fa-tumblr"></i></a></span>
+        </div>
 
-        </div>
-        </div>
             <div class="footer-menu">
                 <details>
                   <summary>IRCTC Trains</summary>
@@ -279,33 +315,88 @@
                 </details>
                 <details>
                     <summary>IRCTC eWallet</summary>
+                      <ul>
+                        <li>About</li>
+                      </ul>
                 </details>
                 <details>
                     <summary>IRCTC Loyalty Program</summary>
                 </details>
                 <details>
                     <summary>IRCTC-iPAY Payment Gateway</summary>
+                    <ul>
+                        <li>IRCTC-iPAY (PDF) (VIDEO)</li>
+                        <li>AutoPay</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>IRCTC Zone</summary>
+                    <ul>
+                        <li>Jago yatri jago</li>li>
+                        <li>Jansankhya Sthirata Kosh</li>
+                        <li>Maharaja"s Express</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>DMRC Ticket Booking at IRCTC</summary>
+                    <ul>
+                        <li>User Guide
+                        <li>Terms & Conditions</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>For newly migrated agents</summary>
+                    <ul>
+                        <li>Login Manual - from old site to new site</li>
+                        <li>Operating Manual for new e-ticketing website</li>
+                        <li>Operating Manual for Agent Interface Application</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>Mobile Zones</summary>
+                    <ul>
+                        <li>IRCTC Android App - IRCTC Rail Connect</li>
+                        <li>ClearTrip</li>
+                        <li>Airtel</li>
+                        <li>Amazon India - Shop & Pay</li>
+                        <li>Confirmtkt</li>
+                        <li>EaseMyTrip Flight, Hotel, Train</li>
+                        <li>Google Pay</li>
+                        <li>Goibibo</li>
+                        <li>MakeMyTrip</li>
+                        <li>Ixigo Trains</li>
+                        <li>Ixigo Flights</li>
+                        <li>PayTM</li>
+                        <li>JustDial</li>
+                        <li>redRail</li>
+                        <li>redBus</li>
+                        <li>Railofy</li>
+                        <li>Railyatri</li>
+                        <li>Trainman</li>
+                        <li>SBI YONO</li>
+                        <li>Yatra</li>
+                        <li>udChalo</li>
+                        <li>Kotak</li>
+                        <li>ICICI</li>
+                        <li>HDFC PayZapp</li>
+                        <li>Tripozo</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>Policies</summary>
                 </details>
                 <details>
                     <summary>AskDish ChatBot</summary>
+                    <ul>
+                        <li>Services of Ask Disha ChatBot</li>
+                        <li>Features of Ask Disha ChatBot</li>
+                    </ul>
                 </details>
                 <details>
                     <summary>About Us</summary>
+                    <ul>
+                        <li>Awards & Achievements</li>
+                    </ul>
                 </details>
             </div>
 
