@@ -87,15 +87,4 @@ h4{
     left: 100%;
     font-size: 30px;   
 }
-.check{
-    position: relative;
-    top:0%;
-    right: 100px;
-    font-size: small;
 
-}
-b{
-    color: darkblue;
-    position: relative;
-    top: -100%;
-}
