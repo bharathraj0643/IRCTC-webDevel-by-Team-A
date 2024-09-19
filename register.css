@@ -5,7 +5,6 @@
 }
 .nav-container{
     flex-direction: column;
-    
 }
 .nav-top a , .nav-bottom a{
     text-decoration: none;
