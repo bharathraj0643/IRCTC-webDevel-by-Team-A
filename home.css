@@ -203,10 +203,11 @@ h1 {
     background-color: rgb(13, 13, 124);
     padding: 50px 50px 50px 50px;
     color: white;
-}
+
             
 .footer-menu ul li{
     list-style-type: none;
+}
 }
             
 .footer-menu ul li:hover:not(.active){
