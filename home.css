@@ -188,15 +188,31 @@ h1 {
 
 .read_more:hover {
     text-decoration: underline;
+ .tumblr:hover{
+                background-color: #2c3e50;
+            }
+            .tumblr i{
+                width:18px;
+            .read_more:hover {
+                text-decoration: underline;
+            }
+        } 
 }
-
 .footer-menu{
-    display: flex;
-    background-color: rgb(13, 13, 124);
-    color: white;
-    padding: 40px;
-    flex-wrap: wrap;
-    gap: 30px;
+    display:flex;
+    background-color:rgb(13,13,124);
+    color:white;
+    padding:40px;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.footer-menu summary:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu ul li:hover:not(.active){
+    color:red;
+    background-color:white;
 }
 .footer-menu summary:hover:not(.active){
     color:red;
@@ -214,5 +230,5 @@ a:hover:not(.active){
 }
 
 .footer-menu ul li{
-    list-style-type: none;
+    list-style-type:none;
 }
