@@ -17,13 +17,14 @@
 .register{
 text-align: left;
 background-color: lightblue;
-height: 1160px;
+height: 1210px;
 }
-.flight{
+.regtrain{
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
+width: 700px;
+height: 270px;
 }
 
 .train{
