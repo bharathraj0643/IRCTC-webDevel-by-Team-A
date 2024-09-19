@@ -214,6 +214,21 @@ h1 {
     color:red;
     background-color:white;
 }
+.footer-menu summary:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu ul li:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+a{
+    color:white;
+}
+a:hover:not(.active){
+    color:black;
+}
+
 .footer-menu ul li{
     list-style-type:none;
 }
