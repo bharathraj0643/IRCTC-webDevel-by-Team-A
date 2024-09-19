@@ -199,28 +199,21 @@ h1 {
         } 
 }
 .footer-menu{
-    display: flex;
-    background-color: rgb(13, 13, 124);
-    padding: 50px 50px 50px 50px;
-    color: white;
-
-            
-.footer-menu ul li{
-    list-style-type: none;
-}
-}
-            
-.footer-menu ul li:hover:not(.active){
-    color: red;
-    background-color: white;
+    display:flex;
+    background-color:rgb(13,13,124);
+    color:white;
+    padding:40px;
+    flex-wrap:wrap;
+    gap:30px;
 }
 .footer-menu summary:hover:not(.active){
-    color: red;
-    background-color: white;
+    color:red;
+    background-color:white;
 }
- a{
-    color: white;
-   }
-a:hover:not(.active){
-    color: black;
-            }
+.footer-menu ul li:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu ul li{
+    list-style-type:none;
+}
