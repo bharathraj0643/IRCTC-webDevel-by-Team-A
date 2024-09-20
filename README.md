@@ -4,3 +4,5 @@ This repository is a work on Web development and design the looks of IRCTC (Indi
 Name - uName
 <br>
 Bharath Raj -  NeoN878
+
+#discord: Shinchan Bot added
